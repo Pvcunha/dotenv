@@ -141,6 +141,22 @@ automatically-unhide-macos-hidden-apps = false
     alt-shift-7 = 'move-node-to-workspace 7'
     alt-shift-8 = 'move-node-to-workspace 8'
     alt-shift-9 = 'move-node-to-workspace 9'
+    
+    
+    # See 
+    cmd-shift-1 = 'summon-workspace 1'
+    cmd-shift-2 = 'summon-workspace 2'
+    cmd-shift-3 = 'summon-workspace 3'
+    cmd-shift-4 = 'summon-workspace 4'
+    cmd-shift-5 = 'summon-workspace 5'
+    cmd-shift-6 = 'summon-workspace 6'
+    cmd-shift-7 = 'summon-workspace 7'
+    cmd-shift-8 = 'summon-workspace 8'
+    cmd-shift-9 = 'summon-workspace 9'
+    
+    cmd-shift-a = 'summon-workspace 10'
+    cmd-shift-s = 'summon-workspace 11'
+    cmd-shift-d = 'summon-workspace 12'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
     alt-tab = 'workspace-back-and-forth'
@@ -157,7 +173,8 @@ automatically-unhide-macos-hidden-apps = false
     r = ['flatten-workspace-tree', 'mode main'] # reset layout
     f = ['layout floating tiling', 'mode main'] # Toggle between floating and tiling layout
     backspace = ['close-all-windows-but-current', 'mode main']
-
+    
+    
     # sticky is not yet supported https://github.com/nikitabobko/AeroSpace/issues/2
     #s = ['layout sticky tiling', 'mode main']
 
@@ -171,4 +188,9 @@ automatically-unhide-macos-hidden-apps = false
     shift-down = ['volume set 0', 'mode main']
     
     # See https://nikitabobko.github.io/AeroSpace/commands#balance-sizes
-    alt-b = 'balance-sizes'
+    alt-b = ['balance-sizes', 'mode main']
+    
+    # See https://nikitabobko.github.io/AeroSpace/commands#enable
+    alt-q = ['enable toggle', 'mode main']
+    
+
